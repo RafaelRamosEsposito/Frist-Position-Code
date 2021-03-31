@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #2CB3F3;
+}
+header{
+    display: flex;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 58px;
+}
+h1 {
+    font-family:'Roboto', sans-serif; 
+    color: black;
+}
+.paragraph-header {
+    font-family:'Roboto', sans-serif; 
+    color: black;
+    margin-top: 10px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 49px;
+}
+section {
+    background-color: white;
+    width: 614px;
+    height: 370px;
+    border-radius: 100px 100px 0px 0px;
+    position: relative;
+}
+.face {
+    background-color: #FFE1C9;
+    width: 478px;
+    height: 316px;
+    border-radius: 100%;
+    position: absolute;
+    right: 69px;
+    top: 30px;
+}
+.olho-esquerdo {
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    position: absolute;
+    top: 95px;
+    right: 393px;
+}
+.olho-direito {
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    position: absolute;
+    top: 95px;
+    left: 393px;
+}
+.email {
+    width: 280px;
+    height: 35px;
+    border: 3px solid black;
+    position: absolute;
+    top: 185px;
+    right: 170px;
+}
+.password {
+    width: 280px;
+    height: 35px;
+    border: 3px solid black;
+    position: absolute;
+    top: 217px;
+    right: 170px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding-top: 22px;
+}
+.box-verde {
+    background-color: #55A603;
+    box-shadow: 0px 4px 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 180px;
+    height: 49px;
+}
+.entrar {
+    font-family:'Roboto', sans-serif; 
+    font-size: 18px;
+    color:white;
+}
